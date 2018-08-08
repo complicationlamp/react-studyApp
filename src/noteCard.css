@@ -1,0 +1,19 @@
+/* {==================================BUILD NOTES===========================}*/
+/* BORDER COLORS: set to easily mark what was what. Change during cleanup */
+/*==================================BUILD NOTES=========================== */
+
+.noteCard{
+	border: 1em black solid;
+	width: 50%;
+	text-align: left;
+}
+
+.noteCard-front{
+	border: .5em purple solid;
+	margin: 1em;
+}
+
+.noteCard-back{
+	border: .5em green solid;
+	margin: 1em;
+}
