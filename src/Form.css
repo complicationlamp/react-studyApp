@@ -1,5 +1,6 @@
 .form-login{
-	border: 1em solid gray;
-	width: 50%;
+	border: solid gray;
+	width: 100%;
 	text-align: center;
+	background:#989898; 
 }
