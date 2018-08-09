@@ -57,22 +57,24 @@ class App extends Component {
             </li>
           </ul>
         </section>
-        <p className="App-about">THIS IS WHAT THE APP DOES</p>
-        <p className="App-intro">
-          To get started, click login or register.
-        </p>
+        <section className="App-info">
+          <p className="App-about">THIS IS WHAT THE APP DOES</p>
+          <p className="App-intro">
+            To get started, click login or register.
+          </p>
+        </section>
         <Form/>
 
         <NoteCard/>
         <section className="App-quiz">
-        <h3 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h3>
+        <h4 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h4>
 					<ul className="App-quiz-answerList">
 						<li className="App-quiz-possibleAnswer">Answer 1</li>
 						<li className="App-quiz-possibleAnswer">Answer 2</li>
 						<li className="App-quiz-possibleAnswer">Answer 3</li>
 						<li className="App-quiz-possibleAnswer">Answer 4</li>
 					</ul>
-        <h3 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h3>
+        <h4 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h4>
 					<ul className="App-quiz-answerList">
 						<li className="App-quiz-possibleAnswer">Answer 1</li>
 						<li className="App-quiz-possibleAnswer">Answer 2</li>
@@ -81,7 +83,7 @@ class App extends Component {
 					</ul>
         </section>
         <section className="App-feeback">
-          <h4 className="App-feeback-title">Feedack section</h4>
+          <h5 className="App-feeback-title">Feedack section</h5>
             <section className="App-feedback-subject"> JS</section>
               <p className="App-feedback-content">texttexttexttexttexttexttext</p>
             <section className="App-feedback-subject"> HTML</section>
@@ -92,7 +94,7 @@ class App extends Component {
         {/* Maybe: not sure if thefooter is needed, but might be a nice touch */}
         {/* =========================BUILD NOTES================================= */}
         <section className="App-footer">
-          <h4 className="App-footer-title">footer filler </h4>
+          <h5 className="App-footer-title">footer filler </h5>
             <p>maybe a link or two?</p>
         </section>
       </div>

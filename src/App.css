@@ -3,8 +3,12 @@
 	text-align: center;
 }
 
-.App-header {
-	background: darkgrey;
+.App-header, .App-info, .form-login, .App-feeback, .noteCard-back{
+	background: lightgrey;
+}
+
+.App-filter, .noteCard-front, .App-quiz, .App-footer  {
+	background: darkgray;
 }
 
 .App-nav{
@@ -13,8 +17,4 @@
 	left: 0;
 	right: 0;
 	z-index: 10;
-}
-
-.App-feeback{
-	background: darkgray;
 }
