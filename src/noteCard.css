@@ -3,20 +3,17 @@
 /*==================================BUILD NOTES=========================== */
 
 .noteCard{
-	border: black solid;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	background: #989898;
 }
 
 .noteCard-front{
-	border: purple solid;
 	background: #858585;
 	/* margin: 1em; */
 }
 
 .noteCard-back{
-	border: green solid;
 	background: #757575;
 	/* margin: 1em; */
 }

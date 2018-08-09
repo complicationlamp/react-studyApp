@@ -1,3 +1,15 @@
-/* .App{
-	border: red 1px solid;
-} */
+.App-header {
+	background: darkgrey;
+}
+
+.App-header, .App-filter, .App-about, .App-intro{
+	text-align: center;
+}
+
+.App-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}

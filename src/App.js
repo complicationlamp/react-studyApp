@@ -15,45 +15,45 @@ class App extends Component {
             {/* here would be a good place for an image that also goes ./ */}
           </a>
           <h1 className="App-title">Learn More Better</h1>
-          <nav id="nav" classNaem="App-Nav">
+          <nav id="nav" classNaem="App-nav">
             <ul className="App-nav-ul">
               <li className="App-nav-li">
-                <a href="#">NAV-LINK</a>
+                <a href="#">nav-link</a>
               </li>
-
-              <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+              <li className="App-nav-li">
+                <a href="#">nav-link</a>
               </li>
-              <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+              <li className="App-nav-li">
+                <a href="#">nav-link</a>
               </li>
-              <li className="App-filter-li">
-                <a href="#">NAV-LINK</a>
+              <li className="App-nav-li">
+                <a href="#">nav-link</a>
               </li>
-              <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+              <li className="App-nav-li">
+                <a href="#">nav-link</a>
               </li>
-              <li>
-                <a href="#">NAV-LINK</a>
+              <li className="App-nav-li">
+                <a href="#">nav-link</a>
               </li>
             </ul>
           </nav>
 
         </header>
+
         <section className="App-filter">
         <h2 className="App-filter-title"> filter</h2>
           <ul className="App-filter-ul">
             <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+                <a href="#">filter-link</a>
             </li>
             <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+                <a href="#">filter-link</a>
             </li>
             <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+                <a href="#">filter-link</a>
             </li>
             <li className="App-filter-li">
-                <a href="#">filter-LINK</a>
+                <a href="#">filter-link</a>
             </li>
           </ul>
         </section>
