@@ -62,7 +62,24 @@ class App extends Component {
           To get started, click login or register.
         </p>
         <Form/>
+
         <NoteCard/>
+        <div className="App-quiz">
+        <h3 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h3>
+					<ul className="App-quiz-answerList">
+						<li className="App-quiz-possibleAnswer">Answer 1</li>
+						<li className="App-quiz-possibleAnswer">Answer 2</li>
+						<li className="App-quiz-possibleAnswer">Answer 3</li>
+						<li className="App-quiz-possibleAnswer">Answer 4</li>
+					</ul>
+        <h4 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h4>
+					<ul className="App-quiz-answerList">
+						<li className="App-quiz-possibleAnswer">Answer 1</li>
+						<li className="App-quiz-possibleAnswer">Answer 2</li>
+						<li className="App-quiz-possibleAnswer">Answer 3</li>
+						<li className="App-quiz-possibleAnswer">Answer 4</li>
+					</ul>
+        </div>
       </div>
     );
   }
