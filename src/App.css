@@ -1,4 +1,6 @@
-
+/* =========================BUILD NOTES=================================
+WILL BE FIXED BY BUILDING: something is creading margins, looks like its probabaly just from div>ul>li casscading 
+=========================BUILD NOTES================================= */
 .App{
 	text-align: center;
 }
