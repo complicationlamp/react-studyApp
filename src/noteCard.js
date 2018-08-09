@@ -5,6 +5,8 @@ export default function NoteCard() {
 			<div className="noteCard-front">
 			{/*==================================BUILD NOTES=========================== */}
 			{/* for this section I think plain would be best, I'd like to set it to toggle switches for the answers*/}
+			{/* ADD: to make formating cleaner make this match the classname syntax of the app, 
+			add a app- to every classname */}
 			{/*==================================BUILD NOTES=========================== */}
 				<p>Front of NoteCard</p>
 				<h1 className="noteCard-header1">Question #111</h1>
@@ -16,7 +18,7 @@ export default function NoteCard() {
 						<li className="noteCard-possibleAnswer">Answer 3</li>
 						<li className="noteCard-possibleAnswer">Answer 4</li>
 					</ul>
-			</div>\
+			</div>
 			{/*==================================BUILD NOTES=========================== */}
 			{/* for this I think it is possible to make it look like a notecard: major red line, rest are blue lines */}
 			{/*==================================BUILD NOTES=========================== */}

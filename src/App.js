@@ -64,7 +64,7 @@ class App extends Component {
         <Form/>
 
         <NoteCard/>
-        <div className="App-quiz">
+        <section className="App-quiz">
         <h3 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h3>
 					<ul className="App-quiz-answerList">
 						<li className="App-quiz-possibleAnswer">Answer 1</li>
@@ -72,14 +72,29 @@ class App extends Component {
 						<li className="App-quiz-possibleAnswer">Answer 3</li>
 						<li className="App-quiz-possibleAnswer">Answer 4</li>
 					</ul>
-        <h4 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h4>
+        <h3 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h3>
 					<ul className="App-quiz-answerList">
 						<li className="App-quiz-possibleAnswer">Answer 1</li>
 						<li className="App-quiz-possibleAnswer">Answer 2</li>
 						<li className="App-quiz-possibleAnswer">Answer 3</li>
 						<li className="App-quiz-possibleAnswer">Answer 4</li>
 					</ul>
-        </div>
+        </section>
+        <section className="App-feeback">
+          <h4 className="App-feeback-title">Feedack section</h4>
+            <section className="App-feedback-subject"> JS</section>
+              <p className="App-feedback-content">texttexttexttexttexttexttext</p>
+            <section className="App-feedback-subject"> HTML</section>
+              <p className="App-feedback-content">texttexttexttexttexttexttext</p>
+        </section>
+
+        {/* =========================BUILD NOTES================================= */}
+        {/* Maybe: not sure if thefooter is needed, but might be a nice touch */}
+        {/* =========================BUILD NOTES================================= */}
+        <section className="App-footer">
+          <h4 className="App-footer-title">footer filler </h4>
+            <p>maybe a link or two?</p>
+        </section>
       </div>
     );
   }

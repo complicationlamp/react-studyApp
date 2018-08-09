@@ -1,9 +1,10 @@
-.App-header {
-	background: darkgrey;
+
+.App{
+	text-align: center;
 }
 
-.App-header, .App-filter, .App-about, .App-intro{
-	text-align: center;
+.App-header {
+	background: darkgrey;
 }
 
 .App-nav{
@@ -12,4 +13,8 @@
 	left: 0;
 	right: 0;
 	z-index: 10;
+}
+
+.App-feeback{
+	background: darkgray;
 }
