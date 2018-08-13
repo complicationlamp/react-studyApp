@@ -1,8 +1,13 @@
+html, p, h1, h2, h3, h4,h5, div, header, li, ul, a {
+	margin: 0%;
+}
 /* =========================BUILD NOTES=================================
-WILL BE FIXED BY BUILDING: something is creading margins, looks like its probabaly just from div>ul>li casscading 
+this is just to remove whitspace between tags
 =========================BUILD NOTES================================= */
+
 .App{
 	text-align: center;
+	margin: 0;
 }
 
 .App-header, .App-info, .form-login, .App-feeback, .noteCard-back{
