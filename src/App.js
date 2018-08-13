@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Form from "./Form"
 import NoteCard from "./noteCard.js"
 import Header from "./Header.js"
-import Filter from "./filter.js"
+import Filter from "./Filter.js"
 
 import './App.css';
 import './Form.css';
@@ -14,23 +14,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Filter/>
-        <section className="App-filter">
-        <h2 className="App-filter-title"> filter</h2>
-          <ul className="App-filter-ul">
-            <li className="App-filter-li">
-                <a href="#">filter-link</a>
-            </li>
-            <li className="App-filter-li">
-                <a href="#">filter-link</a>
-            </li>
-            <li className="App-filter-li">
-                <a href="#">filter-link</a>
-            </li>
-            <li className="App-filter-li">
-                <a href="#">filter-link</a>
-            </li>
-          </ul>
-        </section>
+        
         <section className="App-info">
           <p className="App-about">THIS IS WHAT THE APP DOES</p>
           <p className="App-intro">
