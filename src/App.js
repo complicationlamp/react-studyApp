@@ -3,10 +3,12 @@ import Form from "./Form"
 import NoteCard from "./noteCard.js"
 import Header from "./Header.js"
 import Filter from "./Filter.js"
+import Quiz from "./Qiuz.js"
 
 import './App.css';
 import './Form.css';
 import './noteCard.css'
+import AppInfo from './AppInfo';
 
 class App extends Component {
   render() {
@@ -14,32 +16,10 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Filter/>
-        
-        <section className="App-info">
-          <p className="App-about">THIS IS WHAT THE APP DOES</p>
-          <p className="App-intro">
-            To get started, click login or register.
-          </p>
-        </section>
+        <AppInfo/>
         <Form/>
-
         <NoteCard/>
-        <section className="App-quiz">
-        <h4 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h4>
-					<ul className="App-quiz-answerList">
-						<li className="App-quiz-possibleAnswer">Answer 1</li>
-						<li className="App-quiz-possibleAnswer">Answer 2</li>
-						<li className="App-quiz-possibleAnswer">Answer 3</li>
-						<li className="App-quiz-possibleAnswer">Answer 4</li>
-					</ul>
-        <h4 className="App-quiz-questionHeader"><strong>Q:</strong>What are the things</h4>
-					<ul className="App-quiz-answerList">
-						<li className="App-quiz-possibleAnswer">Answer 1</li>
-						<li className="App-quiz-possibleAnswer">Answer 2</li>
-						<li className="App-quiz-possibleAnswer">Answer 3</li>
-						<li className="App-quiz-possibleAnswer">Answer 4</li>
-					</ul>
-        </section>
+        <Quiz/>
         <section className="App-feeback">
           <h5 className="App-feeback-title">Feedack section</h5>
             <section className="App-feedback-subject"> JS</section>
