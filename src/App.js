@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Form from "./Form"
 import NoteCard from "./noteCard.js"
+import Header from "./Header.js"
+import Filter from "./filter.js"
 
 import './App.css';
 import './Form.css';
@@ -10,36 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header" role="banner">
-          <a href="/">
-            {/* here would be a good place for an image that also goes ./ */}
-          </a>
-          <h1 className="App-title">Learn More Better</h1>
-          <nav id="nav" classNaem="App-nav">
-            <ul className="App-nav-ul">
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-            </ul>
-          </nav>
-
-        </header>
-
+        <Header/>
+        <Filter/>
         <section className="App-filter">
         <h2 className="App-filter-title"> filter</h2>
           <ul className="App-filter-ul">
