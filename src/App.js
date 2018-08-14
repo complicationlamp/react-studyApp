@@ -19,9 +19,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <Filter/>
         <AppInfo/>
         <Form/>
+        <Filter/>
         <NoteCard/>
         <Quiz/>
         <Feedback/>
