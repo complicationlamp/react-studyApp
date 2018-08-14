@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Redirect, Link} from 'react-router-dom';
+
 
 import Header from "./components/Header"
 import AppInfo from "./components/AppInfo"

@@ -1,34 +1,24 @@
 import React from "react";
-export default function Headder(){
-	return(
-		<header className="App-header" role="banner">
-          <a href="/">
-            {/* here would be a good place for an image that also goes ./ */}
-          </a>
-          <h1 className="App-title">Learn More Better</h1>
-          <nav id="nav" classNaem="App-nav">
-            <ul className="App-nav-ul">
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-              <li className="App-nav-li">
-                <a href="#">nav-link</a>
-              </li>
-            </ul>
-          </nav>
+import {connect} from 'react-redux';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import NoteCard from "./noteCard";
+import App from "../App";
 
+export function Headder() {
+	return(
+    <Router>
+      <div className="App-header" >
+        <header role="banner">
+          <h1 className="App-navbar-title"><Link to="/">Learn More Better</Link></h1>
+          <h2 className="App-navbar-link"><Link to="/noteCard">Flash Cards</Link></h2> 
         </header>
+        <main>
+          <Route exact path="/" component={App} />
+          <Route exact path="/NoteCard" component={NoteCard} />
+        </main>
+      </div>
+    </Router>
 	);
 }
+
+export default connect(Headder);
