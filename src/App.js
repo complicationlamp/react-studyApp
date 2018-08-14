@@ -15,7 +15,7 @@ import './App.css';
 import './Form.css';
 import './noteCard.css'
 
-
+export 
 class App extends Component {
   render() {
     return (
